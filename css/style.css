@@ -1,0 +1,62 @@
+h1 {
+	color: white;
+	text-align: center;
+	text-shadow: 1px 1px 6px #006E33;
+	text-transform: uppercase;
+}
+th {
+	font-family: 'Garamond', cursive;
+	background-color: #006E33;
+	font-size: 20px;
+}
+td {
+	font-size: 18px;
+	font-family: "Audiowide", sans-serif;
+}
+td.header:hover {
+	color: #65F803;
+}
+th.planets:hover, td.data:hover {
+	background-color: #65F803;
+}
+body {
+	background-image: url("../images/milkyway.jpg");
+	background-repeat: repeat-x;
+	size: 20%;
+}
+td, th {
+	border: 5px solid;
+	text-align: center;
+	color: white;
+	padding: 20px;
+	color: white;
+}
+.image:hover {
+  width: 600px;
+  height: 600px;
+  background: #00000;
+  transition-timing-function: ease-in; /*Not sure of proper way to do this.*/
+	filter: blur();
+	opacity: 100%;
+}
+img {
+	/*This section of the code is so that the image can have a circular crop around it.*/
+	width: 50%;
+	height: 50%;
+  border-radius: 50%;
+	/*This section of the code is so that the image can be centered.*/
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	opacity: 0.5;
+	filter: blur(3px);
+}
+table {
+  border: 15px solid;
+}
+#page-wrapper {
+	width: 960px;
+  margin: 0 auto;
+  box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 1);
+  border-radius: 12px 12px 0px 0px;
+}
