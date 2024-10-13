@@ -1,4 +1,8 @@
 /*See previous labs for css styling examples.*/
+::selection {
+	background: black;
+	color: yellow;
+}
 #main-nav ul {
 	list-style-type: none;
   margin: 0;
