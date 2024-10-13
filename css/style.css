@@ -1,7 +1,66 @@
 /*See previous labs for css styling examples.*/
-h1.webnav {
-	font-family: "Lucida Console", "Courier New", monospace
+#main-nav ul {
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+  position: relative;
+  left:50%;
 }
-ul.toplinks {
-	
+#main-nav {
+	float: left;
+  width: 100%;
+  background-color: #E4080A;
+	opacity: 0.5;
+}
+#main-nav ul li {
+	float: left;
+  position: relative;
+  right: 50%;
+}
+#main-nav ul li a {
+	padding: 10px 50px;
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+#main-nav ul li a:hover {
+	background-color:  #EC4748; /*This code is borrowed from lab 6. If it works, why reinvent the wheel?*/
+  color: white;
+}
+.centered-content {
+	text-align: center;
+}
+h6 {
+	text-align: center;
+}
+p {
+	font-family: "Lato", sans-serif;
+	font-style: normal;
+}
+.marmot-facts div h3 ul li p { /*Need help getting this to work!*/
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+}
+
+
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+img {
+	border-radius: 50%;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#marmots-banner {
+	border-radius: 8px;
+	float: center;
 }
