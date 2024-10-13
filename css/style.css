@@ -31,6 +31,18 @@
 .centered-content {
 	text-align: center;
 }
+.boxed-content {
+	border: 3px solid black;
+	padding: 5 px;
+	margin: auto;
+	text-align: center;
+}
+body {
+	background-color: #F4A728;
+}
+#resume {
+	background-color: white;
+}
 h6 {
 	text-align: center;
 }
@@ -38,11 +50,22 @@ p {
 	font-family: "Lato", sans-serif;
 	font-style: normal;
 }
-.marmot-facts div h3 ul li p { /*Need help getting this to work!*/
-	font-family: "Times New Roman", Times, serif;
-	font-weight: bold;
+.about-me {
+	color: black;
 }
-
+.marmot-facts {
+	font-family: "Times New Roman", Times, serif;
+	font-weight: oblique;
+}
+.marmot-facts a {
+	text-decoration: none;
+	text-align: center;
+  border: 3px solid green;
+	display: block;
+	margin: auto;
+	float: none;
+	padding: 20px;
+}
 
 .lato-thin {
   font-family: "Lato", sans-serif;
