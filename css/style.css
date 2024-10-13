@@ -37,7 +37,7 @@
 }
 .boxed-content {
 	border: 3px solid black;
-	padding: 5 px;
+	padding: 5px;
 	margin: auto;
 	text-align: center;
 }
@@ -59,7 +59,7 @@ p {
 }
 .marmot-facts {
 	font-family: "Times New Roman", Times, serif;
-	font-weight: oblique;
+	font-weight: bold;
 }
 .marmot-facts a {
 	text-decoration: none;
@@ -95,11 +95,9 @@ img:hover {
 #video {
 	display: block;
 	margin: auto;
-	float: center;
 	width: 50%;
 	height: 500px;
 }
 #marmots-banner {
 	border-radius: 8px;
-	float: center;
 }
