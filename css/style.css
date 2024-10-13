@@ -82,6 +82,11 @@ img {
 	display: block;
   margin-left: auto;
   margin-right: auto;
+	border: 5px dotted black;
+}
+img:hover {
+	width: 50%;
+	height: 50%;
 }
 #marmots-banner {
 	border-radius: 8px;
