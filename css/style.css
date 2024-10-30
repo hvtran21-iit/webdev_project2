@@ -95,17 +95,48 @@ p {
   font-weight: 400;
   font-style: normal;
 }
+.container {
+  position: relative;
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 img {
   border-radius: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   border: 5px dotted black;
+  transition: transform 0.5s ease; /* Add transition for smooth scaling */
 }
-img:hover {
-  width: 50%;
-  height: 50%;
+
+.container:hover img {
+  opacity: 0.7; /* Make the image semi-transparent on hover */
 }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #57CEB8; /* Semi-transparent overlay */
+  border-radius: 50%; /* Match the border radius of the image */
+  display: flex; /* Center text */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  color: white; /* Text color */
+}
+
+.container:hover .overlay {
+  opacity: 1; /* Show overlay on hover */
+}
+
 #video {
   display: block;
   margin: auto;
