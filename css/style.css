@@ -146,3 +146,6 @@ img {
 #marmots-banner {
   border-radius: 8px;
 }
+#marmots-banner:hover {
+  transform: scale(1.1);
+}
