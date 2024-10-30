@@ -53,12 +53,12 @@ body {
 }
 #marmots {
   background-color: #d1fca3;
-  display: block;
-  max-width: 1000px;
-  margin: auto;
 }
 #resume {
   background-color: #f7f7f7;
+  display: block;
+  max-width: 1000px;
+  margin: auto;
 }
 h6 {
   text-align: center;
