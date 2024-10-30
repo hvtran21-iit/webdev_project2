@@ -46,8 +46,10 @@
   list-style-type: none;
 }
 body {
+  display: block;
   background-color: #ffd99c;
   border-style: groove;
+  padding: 5px;
 }
 #marmots {
   background-color: #d1fca3;
